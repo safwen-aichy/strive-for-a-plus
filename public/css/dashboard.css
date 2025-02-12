@@ -1,0 +1,213 @@
+/* Dashboard Container */
+.dashboard-container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Action Buttons */
+.action-buttons {
+    margin-bottom: 20px;
+}
+
+.action-buttons .btn-primary {
+    background: #ff6b6b;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+.action-buttons .btn-primary:hover {
+    background: #ff4d4d;
+}
+
+/* Tuition Listings Section */
+.tuition-listings {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Listings Container - Initially Hidden */
+/* Listings Container - Initially Collapsed */
+.listings-container {
+    overflow: hidden;
+}
+
+
+/* Grid Layout for Cards */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tuition Cards */
+.tuition-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tuition-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Pagination */
+.pagination-container {
+    margin-top: 20px;
+}
+
+
+
+
+/* Container for the form */
+.edit-tuition-container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.edit-tuition-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Labels */
+.edit-tuition-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Form Inputs */
+.edit-tuition-container input,
+.edit-tuition-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Focus Effect */
+.edit-tuition-container input:focus,
+.edit-tuition-container select:focus {
+    border-color: #ff6b6b;
+    outline: none;
+}
+
+/* File Input */
+.edit-tuition-container input[type="file"] {
+    padding: 5px;
+}
+
+/* Submit Button */
+.edit-tuition-container button {
+    width: 100%;
+    background: #ff6b6b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.edit-tuition-container button:hover {
+    background: #ff4d4d;
+}
+
+
+
+
+
+
+/* Container for the form */
+.create-tuition-container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.create-tuition-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Labels */
+.create-tuition-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Form Inputs */
+.create-tuition-container input,
+.create-tuition-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Focus Effect */
+.create-tuition-container input:focus,
+.create-tuition-container select:focus {
+    border-color: #ff6b6b;
+    outline: none;
+}
+
+/* File Input */
+.create-tuition-container input[type="file"] {
+    padding: 5px;
+}
+
+/* Submit Button */
+.create-tuition-container button {
+    width: 100%;
+    background: #ff6b6b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.create-tuition-container button:hover {
+    background: #ff4d4d;
+}

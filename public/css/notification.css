@@ -1,0 +1,35 @@
+/* Notification Styles */
+.notification {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background: #28a745; /* Green success */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+    display: none; /* Hidden by default */
+}
+
+/* Slide in animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Fade out animation */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

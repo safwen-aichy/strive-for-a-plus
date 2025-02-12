@@ -1,0 +1,123 @@
+/* Center the login container */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Glassmorphism Effect for the Login Box */
+.login-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Title & Subtitle */
+.login-box h2 {
+    margin-bottom: 10px;
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+.login-subtitle {
+    color: rgb(203, 203, 203);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Input Group */
+.input-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.login-box input {
+    width: 100%;
+    padding: 12px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--text-color);
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input Hover & Focus Effect */
+.login-box input:hover,
+.login-box input:focus {
+    border-color: #ff8e53;
+    box-shadow: 0 0 8px rgba(255, 142, 83, 0.5);
+}
+
+
+/* Password Toggle Eye Icon */
+.toggle-password {
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    width: 24px;
+    height: 24px;
+}
+
+/* Eye Icon Hover Effect */
+.toggle-password:hover {
+    opacity: 0.7;
+}
+
+#password {
+    border-radius: 25px;
+}
+
+/* Stylish Button */
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff8e53, #fe6b8b);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.login-box button:hover {
+    background: linear-gradient(to right, #e76b42, #e0566c);
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 142, 83, 0.5);
+}
+
+/* Forgot Password & Signup Links */
+.forgot-password,
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.forgot-password a,
+.signup-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.forgot-password a:hover,
+.signup-link a:hover {
+    color: #ff7327;
+    text-decoration: underline;
+}

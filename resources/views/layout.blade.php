@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ asset('css/notification.css') }}">
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
     <link rel="stylesheet" href="{{ asset('css/account.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/show.css') }}">
 
     <!-- Scripts -->
     <script src="{{ asset('js/home.js') }}"></script>

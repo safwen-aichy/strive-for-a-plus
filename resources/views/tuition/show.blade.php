@@ -21,7 +21,7 @@
     </div>
 
     <div class="back-btn-container">
-        <a href="/" class="back-btn">Back to Listings</a>
+        <a href="/" class="back-btn">< Back to Listings</a>
     </div>
 </div>
 @endsection

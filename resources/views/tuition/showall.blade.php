@@ -53,9 +53,9 @@
         <div class="row">
             @foreach ($tuitionPosts as $post)
                 <div class="col-md-4 mb-4">
-                    <div class="card tuition-card">
+                    <div class="card tuitions-card">
                         <!-- Image Section -->
-                        <div class="tuition-image">
+                        <div class="tuitions-image">
                             @if($post->photo_path)
                                 <img src="{{ asset('storage/' . $post->photo_path) }}" alt="Tuition Image">
                             @else

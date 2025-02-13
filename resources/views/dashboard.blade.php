@@ -23,7 +23,7 @@
                                 <p class="card-text"><strong>Price: </strong>{{ $post->fee }} MYR</p>
                                 <p class="card-text"><strong>Max Students: </strong>{{ $post->max_students }}</p>
                                 <p class="card-text"><strong>Category: </strong>{{ $post->category->name }}</p>
-                                <a href="/tuition/{{ $post->id }}/edit" class="btn btn-secondary">Edit</a>
+                                <a href="/tuition/{{ $post->id }}/edit" class="btn btn-secondary" style='width:71.85px; margin-bottom:15px;'>Edit</a>
                                 <form method="POST" action="/tuition/{{ $post->id }}" class="d-inline">
                                     @csrf
                                     @method('DELETE')
